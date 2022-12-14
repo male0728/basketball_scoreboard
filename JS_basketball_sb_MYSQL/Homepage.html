@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Welecome Basketball Scoreboard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family:arial;  
+            }
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                background: #07252d;
+                background-image: url('./basketball.png') ;
+                background-repeat: no-repeat; 
+                background-size:50%;
+                
+            }
+            h2
+            {
+                z-index: 1;
+                position: relative;
+                font-size: 6em;
+                letter-spacing: 15px;
+                color: lightblue;
+                text-transform:uppercase;
+                width:100%;
+                text-align:center;
+                -webkit-box-reflect: below 1px linear-gradient(transparent,black);
+                line-height: 0.70em;
+                outline:none;
+                animation: animate 5s linear infinite;
+                
+            }
+            @keyframes animate
+            {
+                0%,18%,2%50.1%,60%,65.1%,80%,90.1%,92%
+                {
+                    color:#0e3742;
+                    text-shadow; none;
+                }
+                18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+                {
+                  color:white;
+                  test-shadow:0 0 10px lightblue;
+                  0 0 20px lightblue;
+                  0 0 40px lightblue;
+                  0 0 80px lightblue;
+                  0 0 160px lightblue;
+                }
+            }
+            img{
+                width: 50%;
+                 z-index: 2
+            }
+            a{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="web_boostrap.php"><h2>BASKETBALL SCOREBOARD</h2></a>
+       
+    </body>
+</html>
